@@ -35,7 +35,7 @@ $place = mysqli_fetch_assoc(mysqli_query($app,"SELECT place FROM parking WHERE p
     {
         $error[] = 'Incorect date';
     }
-    if (mysqli_query($app,"SELECT car_number FROM car WHERE car_number = '{$_POST['car']}'"))
+    if (mysqli_fetch_row(mysqli_query($app,"SELECT car_number FROM car WHERE car_number = '{$_POST['car']}'")) > 0)
     {
         $error[] = 'This car is stated on the parking';
     }

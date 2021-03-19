@@ -12,13 +12,13 @@ if (!isset($_SESSION['admin']))
 <hr>
 <div style="color:red;">Стоянка</div>
 <?php
-$parking = mysqli_query($app,"SELECT b.place,b.id,b.car,a.model,a.owner FROM parking as b,car as a WHERE a.car_number = b.car");
+$parking = mysqli_query($app,"SELECT b.data_in,b.data_out,b.place,b.id,b.car,a.model,a.owner FROM parking as b,car as a WHERE a.car_number = b.car");
 echo "<table>
 <tr>
-    <th>id</th><th>place</th><th>car_number</th><th>model</th><th>owner</th>
+    <th>id</th><th>place</th><th>car_number</th><th>model</th><th>owner</th><th>data_in</th><th>data_out</th>
 </tr>";
 foreach ($parking as $key => $value) {
-    echo "<tr style=text-align:center><td>".$value['id'] ."</td><td>".$value['place'] ."</td><td>".$value['car'] ."</td><td>".$value['model'] ."</td><td>".$value['owner'] ."</td></tr>";
+    echo "<tr style=text-align:center><td>".$value['id'] ."</td><td>".$value['place'] ."</td><td>".$value['car'] ."</td><td>".$value['model'] ."</td><td>".$value['owner'] ."</td><td>".$value['data_in'] ."</td><td>".$value['data_out'] ."</td></tr>";
 }
 echo "</table>";
 ?>
