@@ -75,7 +75,9 @@ Add new place:
 
 ![image](https://user-images.githubusercontent.com/76432370/120314984-84b94b00-c2e4-11eb-9efe-90a514abde21.png)
 
-![image](https://user-images.githubusercontent.com/76432370/120315055-98fd4800-c2e4-11eb-9fcb-3c6a49ee3230.png)
+
+
+![image](https://user-images.githubusercontent.com/76432370/120316495-2ab98500-c2e6-11eb-80b8-dd9aebe70b38.png)
 
 
 
