@@ -3,12 +3,13 @@
 Main page:
 
 
-![image](https://user-images.githubusercontent.com/76432370/120314047-7d457200-c2e3-11eb-9b81-e58b9bec1225.png)
+![image](https://user-images.githubusercontent.com/76432370/120316189-cf879280-c2e5-11eb-8595-3a3317f4d5b4.png)
 
 
 
 Register:
-![image](https://user-images.githubusercontent.com/76432370/120314173-a0702180-c2e3-11eb-9235-ea1dbfcf2359.png)
+![image](https://user-images.githubusercontent.com/76432370/120316210-d6aea080-c2e5-11eb-9a36-6900752336b5.png)
+
 
 
 Order:
